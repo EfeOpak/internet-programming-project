@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexHabit - Ana Sayfa</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+<header>
+    <nav class="navbar">
+        <a href="index.html" class="logo">FlexHabit ✳</a>
+
+        
+<div class="nav-actions">
+    <a href="dashboard.html" class="nav-link">Bugün</a>
+
+    <div class="flex-token" title="Flex Token: Bu hafta 3 mola hakkın kaldı.">
+        <span>❄</span>
+        <span>3/3</span>
+    </div>
+
+    <a href="profile.html" class="profile-link" aria-label="Profilim">♙</a>
+</div>
+
+    </nav>
+</header>
+
+    
+<main>
+    <section>
+        <h2 id="greeting"></h2>
+        <p>Küçük adımlar da ilerlemedir.</p>
+    </section>
+ 
+
+<section class="weekly-calendar">
+    <h3>Bu Hafta</h3>
+    <div class="week-days" id="weekDays"></div>
+</section>
+
+
+<section class="habits-section" id="habits">
+
+    <div class="section-header">
+        <h3>Alışkanlıklarım</h3>
+        <button class="add-button" type="button" aria-label="Alışkanlık ekle">+</button>
+    </div>
+
+    <div class="habit-card">
+        <div class="habit-info">
+            <h4>Kitap oku</h4>
+            <p>Hedef: 20 dakika</p>
+        </div>
+        <button class="habit-status" type="button" aria-label="Kitap oku durumunu güncelle"></button>
+    </div>
+
+    <div class="habit-card">
+        <div class="habit-info">
+            <h4>Spor yap</h4>
+            <p>Hedef: 45 dakika</p>
+        </div>
+        <button class="habit-status" type="button" aria-label="Spor yap durumunu güncelle"></button>
+    </div>
+
+</section>
+
+
+<section class="tasks-section" id="tasks">
+
+    <div class="section-header">
+        <h3>Görevlerim</h3>
+        <button class="add-button" type="button" aria-label="Görev ekle">+</button>
+    </div>
+
+    <div class="task-card">
+        <div class="task-info">
+            <h4>Markete git</h4>
+            <p>Bugün, 18:00</p>
+        </div>
+        <button class="task-status" type="button" aria-label="Görev durumunu güncelle"></button>
+    </div>
+
+    <div class="task-card">
+        <div class="task-info">
+            <h4>Staj başvurusu yap</h4>
+            <p>Bugün, 20:00</p>
+        </div>
+        <button class="task-status" type="button" aria-label="Görev durumunu güncelle"></button>
+    </div>
+
+</section>
+</main>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>

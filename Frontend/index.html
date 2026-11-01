@@ -3,98 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FlexHabit - Ana Sayfa</title>
+    <title>FlexHabit</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
 
 <header>
     <nav class="navbar">
         <a href="index.html" class="logo">FlexHabit ✳</a>
 
-        
-<div class="nav-actions">
-    <a href="index.html" class="nav-link">Bugün</a>
-
-    <div class="flex-token" title="Flex Token: Bu hafta 3 mola hakkın kaldı.">
-        <span>❄</span>
-        <span>3/3</span>
-    </div>
-
-    <a href="profile.html" class="profile-link" aria-label="Profilim">♙</a>
-</div>
-
+        <div class="nav-actions">
+            <a href="register.html" class="register-link">Kayıt Ol</a>
+            <a href="login.html" class="login-link">Giriş yap</a>
+        </div>
     </nav>
 </header>
 
+<main>
+
+    <section class="hero">
+        <span class="hero-badge">Alışkanlıklarını kendi ritminde yönet!</span>
+        <h1 class="hero-title">Küçük adımlar, büyük değişimler!</h1>
+        <p class="hero-description">Alışkanlıklarını ve görevlerini tek yerde takip et. Bir gün aksattığında motivasyonunu kaybetme.</p>
+        <a href="register.html" class="hero-button">Hemen Katıl</a>
+    </section>
+
+    <section class="features">
+        <article class="feature-card">
+            <span class="feature-icon">✓</span>
+            <h2>Alışkanlıklar</h2>
+            <p>Günlük hedeflerini takip et.</p>
+        </article>
+
+        <article class="feature-card">
+            <span class="feature-icon">✓</span>
+            <h2>Görevler</h2>
+            <p>Yapılacakları planla.</p>
+        </article>
+
+        <article class="feature-card">
+            <span class="feature-icon">❄</span>
+            <h2>Flex Token</h2>
+            <p>Molalarla serini koru.</p>
+        </article>
+    </section>
+
+
+</main>
     
-    <main>
-        <h2 id="greeting"></h2>
-        <p>Küçük adımlar da ilerlemedir.</p>
-    </main>
-
-
-
-<section class="weekly-calendar">
-    <h3>Bu Hafta</h3>
-    <div class="week-days" id="weekDays"></div>
-</section>
-
-
-<section class="habits-section" id="habits">
-
-    <div class="section-header">
-        <h3>Alışkanlıklarım</h3>
-        <button class="add-button" type="button" aria-label="Alışkanlık ekle">+</button>
-    </div>
-
-    <div class="habit-card">
-        <div class="habit-info">
-            <h4>Kitap oku</h4>
-            <p>Hedef: 20 dakika</p>
-        </div>
-        <button class="habit-status" type="button" aria-label="Kitap oku durumunu güncelle"></button>
-    </div>
-
-    <div class="habit-card">
-        <div class="habit-info">
-            <h4>Spor yap</h4>
-            <p>Hedef: 45 dakika</p>
-        </div>
-        <button class="habit-status" type="button" aria-label="Spor yap durumunu güncelle"></button>
-    </div>
-
-</section>
-
-
-<section class="tasks-section" id="tasks">
-
-    <div class="section-header">
-        <h3>Görevlerim</h3>
-        <button class="add-button" type="button" aria-label="Görev ekle">+</button>
-    </div>
-
-    <div class="task-card">
-        <div class="task-info">
-            <h4>Markete git</h4>
-            <p>Bugün, 18:00</p>
-        </div>
-        <button class="task-status" type="button" aria-label="Görev durumunu güncelle"></button>
-    </div>
-
-    <div class="task-card">
-        <div class="task-info">
-            <h4>Staj başvurusu yap</h4>
-            <p>Bugün, 20:00</p>
-        </div>
-        <button class="task-status" type="button" aria-label="Görev durumunu güncelle"></button>
-    </div>
-
-</section>
-
-
-
-    <script src="js/main.js"></script>
 </body>
 </html>
